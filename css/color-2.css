@@ -1,0 +1,95 @@
+
+/*Selection Color*/
+::selection{
+	background:#674397;
+	color:#fff;
+}
+::-moz-selection{
+	background:#674397;
+	color:#fff;
+}
+
+/* Overlay Color*/
+
+.overlay{
+	background:rgba(103,67,151,.7);
+}
+
+/*Text Color*/
+
+.intro a,
+.head-area,
+.single-package .price,
+.button,
+.video-area a,
+.copyright-info a,
+.button:hover,
+.button.alt:hover,
+.single-pricing:hover .button,
+.features-area .nav > li:hover > a,
+.features-area .nav > li.active > a,
+.call-to-action,
+.footer-area{
+	color:#fff;
+}
+.single-package h5,
+.lead-form,
+.video-dec h3,
+.single-service h6,
+.features-area .nav > li > a,
+.section-title h3{
+	color:#464646;
+}
+.single-pricing:hover h2,
+.single-pricing:hover h5,
+.lead-form h3,
+.copyright-info a:hover,
+.service-icon .icon,
+.features-content h3{
+	color:#674397;
+}
+
+/*Background Color*/
+.features-area,
+.clients-area,
+.single-gallery a:after,
+.single-gallery a:before,
+.lead-form,
+.service-icon,
+.service-dec,
+.single-gallery,
+.video-dec,
+.testimonial-dec,
+.testimonial-image,
+.single-pricing,
+.section-title,
+.single-package{
+	background:#fff;
+}
+
+.single-gallery a,
+.button,
+.button.alt:hover,
+.footer-area{
+	background:#464646;
+}
+.single-package .price,
+.features-area .nav > li:hover > a,
+.features-area .nav > li.active > a,
+.button:hover,
+.single-pricing:hover .button,
+.button.alt{
+	background:#674397;
+}
+
+.graybg,
+.features-area .nav > li > a,
+.input-field input[type="text"]{
+	background:#ebebeb;
+}
+
+/*Border Color*/
+.border1px,
+.single-pricing h5{
+	border-color:#ebebeb;
+}
