@@ -15,3 +15,19 @@ $(document).ready(function() {
         })
     });
 });
+
+$(document).ready(function() {
+    $("#lead-form").submit(function(event) {
+        event.preventDefault();
+        $("#lead-message").text("Sending Message...")
+        var data = {
+            firstname: $("#lead-firstname").val(),
+            lastname: $("#lead-lastname").val(),
+            email: $("#lead-email").val(),
+            details: "Join Request with $50 Credit",
+        }
+        jQuery.post("/sendmail.php", data, function(response) {
+            $("#lead-message").text(response)
+        })
+    });
+});
